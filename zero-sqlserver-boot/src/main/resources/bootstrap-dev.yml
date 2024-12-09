@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: zero-sqlserver-boot
+    datasource:
+        url: jdbc:sqlserver://localhost:1433;databaseName=zero
+        username: sa
+        password: sa@123
+    jpa:
+        hibernate:
+            ddl-auto: create
+            show-sql: true

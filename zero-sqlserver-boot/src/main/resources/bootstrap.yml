@@ -1,0 +1,7 @@
+spring:
+    application:
+        name: zero-sqlserver-boot
+    profiles:
+        active: dev
+server:
+    port: 8080
